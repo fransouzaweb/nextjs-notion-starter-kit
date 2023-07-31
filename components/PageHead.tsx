@@ -82,6 +82,9 @@ export const PageHead: React.FC<
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
       <title>{title}</title>
+
+      {/* NotionForm */}
+      <script async data-nf='{"formurl":"https://notionforms.io/forms/form-my-blog-awc07p","emoji":"💬","position":"right","bgcolor":"#3B82F6","width":"500"}' src='https://d3n1rwgcdu2uk.cloudfront.net/6d1d07e5-a310-435d-acb6-230efe5ec88b/widgets/embed-min.js'></script>
     </Head>
   )
 }
